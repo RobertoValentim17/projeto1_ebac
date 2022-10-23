@@ -109,8 +109,7 @@ section .contact h2{
     color:  rgb(75, 189, 247);
 }
 
-section .contact-methods h3,
-form input {
+section .contact-methods h3 {
     color:    rgb(75, 189, 247);
 }
 
