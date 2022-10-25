@@ -83,6 +83,7 @@ section h2,
 /* Fontes e cores */
 
 header h1,
+header li,
 form button {
     font-weight: normal;
 }
