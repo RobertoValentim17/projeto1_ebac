@@ -30,7 +30,6 @@ header .container,
 header li,
 header nav ul {
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 16px;
 }
@@ -89,7 +88,9 @@ form button {
 }
 
 header h1,
+header li,
 section h2,
+section .contact h3,
 form button {
     font-family: 'Bungee', cursive;
 }
