@@ -90,7 +90,7 @@ form button {
 
 header h1,
 header li,
-section h2,
+section h2, /* Se fosse outra fonte eu usaria o section .about h2 para indicar a outra fonte*/
 section .contact h3,
 form button {
     font-family: 'Bungee', cursive;
