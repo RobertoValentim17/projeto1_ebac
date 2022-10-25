@@ -9,7 +9,8 @@
 .about,
 .contact,
 .footer {
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -27,14 +28,14 @@ header .container,
 }
 
 header li,
-header ul {
+header nav ul {
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 16px;
 }
 
-header li a {
+header nav li a {
     color: rgb(75, 189, 247);
     text-decoration:none; 
 }
@@ -100,15 +101,6 @@ textarea {
     font-family: 'Roboto', sans-serif;
 }
 
-.brands-list img {
-    height: 24px;
-}
-
-.brands-list li {
-    display: inline;
-    margin-right: 8px;
-}
-
 section .about h2 {
     color:  rgb(75, 189, 247);
 }
@@ -128,7 +120,6 @@ section .contact-methods h3 {
 section .contact {
     color:    aliceblue;
 }
-
 
 #csgo {
     background-color: rgba(51, 124, 79, 0.685);
@@ -168,6 +159,15 @@ section .contact {
 
 .about img {
     height: 400px;
+}
+
+.brands-list img {
+    height: 100px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
 }
 
 /* Formulario */
