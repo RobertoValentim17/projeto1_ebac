@@ -9,7 +9,7 @@
 .about,
 .contact,
 .footer {
-    width: 1366px;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -26,7 +26,8 @@ header .container,
     justify-content: space-between;
 }
 
-header li {
+header li,
+header ul {
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -82,20 +83,20 @@ section h2,
 /* Fontes e cores */
 
 header h1,
-section h2,
-section h3,
 form button {
     font-weight: normal;
 }
 
-header h1, 
+header h1,
 section h2,
-section h3,
 form button {
     font-family: 'Bungee', cursive;
 }
 
-body, input, textarea {
+body,
+section h3, 
+input, 
+textarea {
     font-family: 'Roboto', sans-serif;
 }
 
