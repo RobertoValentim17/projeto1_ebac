@@ -100,6 +100,15 @@ textarea {
     font-family: 'Roboto', sans-serif;
 }
 
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
 section .about h2 {
     color:  rgb(75, 189, 247);
 }
